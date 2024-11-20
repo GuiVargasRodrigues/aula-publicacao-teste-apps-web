@@ -4,6 +4,8 @@
   "main": "ex1.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start:1": "node ex1.js",
+    "start:2": "node ex2.js",
     "start":"node index.js",
     "lint": "eslint ."
   },

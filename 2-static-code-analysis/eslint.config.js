@@ -1,9 +1,10 @@
 // eslint.config.js
-export default [
+module.exports = [
     {
         rules: {
             semi: "error",
-            "prefer-const": "error"
+            "prefer-const": "error",
+            "no-unused-vars": "error",
         }
     }
 ];
